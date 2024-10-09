@@ -1,9 +1,19 @@
+Version 3.0.1
+-------------
+
+Released 2024-10-08
+
+-   Address compiler warnings that became errors in GCC 14. :issue:`466`
+-   Fix compatibility with proxy objects. :issue:`467`
+
+
 Version 3.0.0
 -------------
 
-Unreleased
+Released 2024-10-07
 
--   Drop support for Python 3.7.
+-   Support Python 3.13 and its experimental free-threaded build. :pr:`461`
+-   Drop support for Python 3.7 and 3.8.
 -   Use modern packaging metadata with ``pyproject.toml`` instead of ``setup.cfg``.
     :pr:`348`
 -   Change ``distutils`` imports to ``setuptools``. :pr:`399`
