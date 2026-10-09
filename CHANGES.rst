@@ -3,8 +3,17 @@ Version 3.1.0
 
 Unreleased
 
--   Drop support for Python 3.9.
+-   Drop support for Python 3.9 and 3.10.
 -   Remove previously deprecated code.
+
+
+Version 3.0.4
+-------------
+
+Released 2026-10-02
+
+-   Build Python 3.15, armv7l, ppc64le, Android, and iOS wheels.
+-   Improve performance of ``striptags``. :issue:`521`
 
 
 Version 3.0.3
